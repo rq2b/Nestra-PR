@@ -1,0 +1,10 @@
+# remove logs to prevent sensitive info leakage / transient data
+logs/
+
+# python cache
+__pycache__/
+*.pyc
+
+# secrets / env
+.env
+.env.*
